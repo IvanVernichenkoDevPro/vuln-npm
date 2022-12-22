@@ -1,0 +1,28 @@
+{
+  "name": "vuln-npm",
+  "version": "1.1.0",
+  "description": "package to describe supply chain attacks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanVernichenkoDevPro/vuln-npm.git"
+  },
+  "keywords": [
+    "vulnerability",
+    "npm",
+    "nodejs"
+  ],
+  "author": "ivanvernichenko@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanVernichenkoDevPro/vuln-npm/issues"
+  },
+  "homepage": "https://github.com/IvanVernichenkoDevPro/vuln-npm#readme",
+  "dependencies": {
+    "axios": "^1.2.1"
+  }
+}
