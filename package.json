@@ -1,6 +1,6 @@
 {
   "name": "vuln-npm",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "package to describe supply chain attacks",
   "main": "index.js",
   "scripts": {
