@@ -7,6 +7,7 @@ docker run -it --rm \
 		-e AWS_KEY='w0pE4j5k4FlUrkIIAMFAKEdiLMKLGZlxyct+GpTam' \
 		-e HOST='127.0.0.1' \
 		-e PORT='5555' \
-		-p 80:5555
+		-p 80:5555 \
+		--name myserver_latest \
 		myserver:latest 
-     
+
