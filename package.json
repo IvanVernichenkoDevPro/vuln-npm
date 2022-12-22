@@ -1,8 +1,8 @@
 {
   "name": "vuln-npm",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "description": "package to describe supply chain attacks",
-  "main": "index.js",
+  "main": "install.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "node install.js"
